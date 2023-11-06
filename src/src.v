@@ -18,7 +18,7 @@ module src (
     wire [4:0] S;
     wire [3:0] C;
     
-   assign uio_in = 8'b11111111;
+   // assign uio_in = 8'b11111111;
     assign uio_out = 8'b11111111;
     assign uio_oe = 8'b11111111;
     

@@ -56,5 +56,6 @@ module src (
     assign S[4] = C[3];
 
    assign  uo_out [4:0]= S; 
+   assign uo_out [7:5] = 3'd0; 
     
 endmodule
